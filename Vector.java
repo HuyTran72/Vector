@@ -33,8 +33,8 @@ public class Vector {
     }
 
     public double computeMagnitude () {
-        double sumOfSquares = Math.pow(this.x, 2) + Math.pow(this.y, 2) + Math.pow(this.z, 2);
-        double result = Math.sqrt(sumOfSquares);
+        double sum = Math.pow(this.x, 2) + Math.pow(this.y, 2) + Math.pow(this.z, 2);
+        double result = Math.sqrt(sum);
         return result;
     }
 
