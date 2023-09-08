@@ -9,7 +9,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Values of vector 2 are: ");
-        System.out.printf("x=> %f, y=> %f, z=> %f\n", v2.getX(), v2.getY(), v2.getZ());
+        System.out.printf("x= %f, y= %f, z= %f\n", v2.getX(), v2.getY(), v2.getZ());
         System.out.printf("Magnitude of vector 2: %f\n", v2.computeMagnitude());
 
         System.out.println();
